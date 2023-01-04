@@ -1,0 +1,28 @@
+{
+  "name": "captain-n3m0",
+  "version": "0.0.1",
+  "description": "Autonomous boat to DAV connector",
+  "homepage": "https://github.com/DAVFoundation/captain-n3m0#readme",
+  "bugs": {
+    "url": "https://github.com/DAVFoundation/captain-n3m0/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DAVFoundation/captain-n3m0.git"
+  },
+  "license": "MIT",
+  "author": "DAV Foundation <tal@dav.network>",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "npx jest"
+  },
+  "dependencies": {
+    "dav-js": "github:DAVFoundation/dav-js",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "jest": "^24.1.0",
+    "supertest": "^3.4.2"
+  }
+}
